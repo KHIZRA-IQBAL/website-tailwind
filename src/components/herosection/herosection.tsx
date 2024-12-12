@@ -3,7 +3,8 @@ import Image from "next/image";
 
 export default function Hero(){
     return(
-        <div className=" flex  border bg-black h-[600px] w-[100]">
+        <div className="flex 
+         bg-black  h-[600px] w-[100%] ">
             <div className="w-[40%]">
                 <h1 className="text-6xl text-white pt-24 ml-8">
                 From Casual <br />
@@ -13,9 +14,13 @@ export default function Hero(){
                 </p>
                 <Link href={"/about"}><button className="text-1xl text-white mt-24 ml-8 border w-32 h-12">EXPLORE MORE</button></Link>
             </div>
-            <div className=" h-[445px] w-[60%] mt-20 ">
+            <div className=" h-[445px]  xsm:h-[554px] md:h-[445px] w-[60%] 
+             mt-20 xsm:mt-[500px] md:mt-20 ">
                 <Image src="/seasons-campaignbanner-img-men-dt-data-removebg-preview.png" alt="Men's picture" width={800} height={900} />
             </div>
+        
         </div>
+
+
     )
 }
