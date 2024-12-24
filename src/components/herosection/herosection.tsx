@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Hero(){
+   // hero component
     return(
         <div className="flex 
          bg-black  h-[600px] w-[100%] ">
