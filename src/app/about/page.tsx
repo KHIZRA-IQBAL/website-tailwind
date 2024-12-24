@@ -1,6 +1,5 @@
 import Image from "next/image"
 export default function About(){
-   
     return(
         <div>
             <h1 className="text-white text-center mt-10 text-5xl mb-10">OUR COLLECTION</h1>
