@@ -5,7 +5,7 @@ export default function Hero(){
    // hero component
     return(
         <div className="flex 
-         bg-orange-600  h-[600px] w-[100%] ">
+         bg-black h-[600px] w-[100%] ">
             <div className="w-[40%]">
                 <h1 className="text-6xl text-white pt-24 ml-8">
                 From Casual <br />
